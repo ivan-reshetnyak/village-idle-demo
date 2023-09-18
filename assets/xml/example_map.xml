@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Map>
+    <Background>assets/img/Map1.jpg</Background>
+    <ZoomIn>assets/img/zoomin.png</ZoomIn>
+    <ZoomOut>assets/img/zoomout.png</ZoomOut>
+    <Grids type="array">
+        <value left="0.792"  top="0.4914" right="0.911"  bottom="0.6245" cellsX="1" cellsY="1"></value>
+        <value left="0.247"  top="0.3084" right="0.6345" bottom="0.5235" cellsX="4" cellsY="2"></value>
+        <value left="0.2345" top="0.5449" right="0.61"   bottom="0.7735" cellsX="4" cellsY="2"></value>
+        <value left="0.638"  top="0.4808" right="0.7895" bottom="0.6966" cellsX="1" cellsY="1"></value>
+    </Grids>
+    <Buildings type="array">
+        <value grid="0" posX="0" posY="0">Temple</value>
+
+        <value grid="1" posX="0" posY="0">Museum</value>
+        <value grid="1" posX="1" posY="0">Hangar</value>
+        <value grid="1" posX="2" posY="0">Museum</value>
+        <value grid="1" posX="3" posY="0">Drugstore</value>
+        <value grid="1" posX="0" posY="1">Government</value>
+        <value grid="1" posX="1" posY="1">Museum</value>
+        <value grid="1" posX="2" posY="1">Museum</value>
+        <value grid="1" posX="3" posY="1">Drugstore</value>
+
+        <value grid="2" posX="0" posY="0">Museum</value>
+        <value grid="2" posX="1" posY="0">Property</value>
+        <value grid="2" posX="2" posY="0">Museum</value>
+        <value grid="2" posX="0" posY="1">Property</value>
+        <value grid="2" posX="1" posY="1">Museum</value>
+        <value grid="2" posX="2" posY="1">Property</value>
+
+        <value grid="3" posX="0" posY="0">Bridge</value>
+    </Buildings>
+    <Descriptions type="array">
+        <value type="workshop">assets/xml/workshops/drugstore.xml</value>
+        <value type="workshop">assets/xml/workshops/government.xml</value>
+        <value type="workshop">assets/xml/workshops/museum.xml</value>
+        <value type="workshop">assets/xml/workshops/property.xml</value>
+        <value type="workshop">assets/xml/workshops/temple.xml</value>
+        <value type="decoration">assets/xml/decorations/bridge.xml</value>
+        <value type="decoration">assets/xml/decorations/hangar.xml</value>
+    </Descriptions>
+    <Player>
+        <Name>Mango</Name>
+        <Gold>0</Gold>
+        <Level>15</Level>
+        <Experience>23</Experience>
+        <Happiness>45</Happiness>
+    </Player>
+    <Friends type="array">
+        <value name="Cathe" level="25">assets/img/coin.png</value>
+        <value name="Pip" level="23">assets/img/profile.png</value>
+        <value name="Derpy" level="15">assets/img/Smiley.png</value>
+        <value name="Elric" level="99">assets/img/profile.png</value>
+        <value name="Amer" level="99">assets/img/profile.png</value>
+        <value name="Vash" level="12">assets/img/profile.png</value>
+        <value name="Iris" level="23">assets/img/profile.png</value>
+        <value name="tonyk" level="79">assets/img/profile.png</value>
+        <value name="Pancarte" level="80">assets/img/profile.png</value>
+        <value name="Mels" level="16">assets/img/profile.png</value>
+    </Friends>
+</Map>

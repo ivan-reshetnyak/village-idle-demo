@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Decoration>
+    <Name>Bridge</Name>
+    <Background>assets/img/decoration/bridge.png</Background>
+    <Description>Sample bridge description.</Description>
+    <Cost>250</Cost>
+    <MinLevel>5</MinLevel>
+    <Happiness>30</Happiness>
+    <XP>15</XP>
+</Decoration>

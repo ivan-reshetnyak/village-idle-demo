@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Workshop>
+    <Name>Temple</Name>
+    <Background>assets/img/workshop/Temple-icon.png</Background>
+    <Description>Sample temple description.</Description>
+    <Cost>50</Cost>
+    <MinLevel>10</MinLevel>
+    <Income>9.5</Income>
+    <XP>15</XP>
+</Workshop>

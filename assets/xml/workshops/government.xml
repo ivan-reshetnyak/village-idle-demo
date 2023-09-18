@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Workshop>
+    <Name>Government</Name>
+    <Background>assets/img/workshop/government.png</Background>
+    <Description>Sample government description.</Description>
+    <Cost>1000</Cost>
+    <MinLevel>15</MinLevel>
+    <Income>250</Income>
+    <XP>15</XP>
+</Workshop>

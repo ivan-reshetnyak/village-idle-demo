@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\camera.cpp" />
+    <ClCompile Include="src\game\controls.cpp" />
+    <ClCompile Include="src\game\friends.cpp" />
+    <ClCompile Include="src\game\game.cpp" />
+    <ClCompile Include="src\game\player_info.cpp" />
+    <ClCompile Include="src\game\timer.cpp" />
+    <ClCompile Include="src\game\ui\ui_clickable.cpp" />
+    <ClCompile Include="src\game\unit.cpp" />
+    <ClCompile Include="src\game\units\unit_billboard.cpp" />
+    <ClCompile Include="src\game\units\unit_button.cpp" />
+    <ClCompile Include="src\game\units\unit_friend_list.cpp" />
+    <ClCompile Include="src\game\units\unit_map.cpp" />
+    <ClCompile Include="src\game\units\unit_map_bld_decoration.cpp" />
+    <ClCompile Include="src\game\units\unit_map_bld_workshop.cpp" />
+    <ClCompile Include="src\game\units\unit_map_building.cpp" />
+    <ClCompile Include="src\game\units\unit_map_elements.cpp" />
+    <ClCompile Include="src\game\units\unit_map_grid.cpp" />
+    <ClCompile Include="src\game\units\unit_player_stats.cpp" />
+    <ClCompile Include="src\game\units\unit_progress_bar.cpp" />
+    <ClCompile Include="src\game\units\unit_shop.cpp" />
+    <ClCompile Include="src\game\units\unit_text.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\math\common.cpp" />
+    <ClCompile Include="src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\render\buffer.cpp" />
+    <ClCompile Include="src\render\geometry.cpp" />
+    <ClCompile Include="src\render\primitive.cpp" />
+    <ClCompile Include="src\render\prim\points.cpp" />
+    <ClCompile Include="src\render\prim\trimesh.cpp" />
+    <ClCompile Include="src\render\render.cpp" />
+    <ClCompile Include="src\render\resource\material.cpp" />
+    <ClCompile Include="src\render\resource\shader.cpp" />
+    <ClCompile Include="src\render\resource\texture.cpp" />
+    <ClCompile Include="src\render\resource\tex\tex_img.cpp" />
+    <ClCompile Include="src\render\vertex.cpp" />
+    <ClCompile Include="src\util\utils.cpp" />
+    <ClCompile Include="src\win\window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\camera.h" />
+    <ClInclude Include="src\game\controls.h" />
+    <ClInclude Include="src\game\friends.h" />
+    <ClInclude Include="src\game\game.h" />
+    <ClInclude Include="src\game\player_info.h" />
+    <ClInclude Include="src\game\timer.h" />
+    <ClInclude Include="src\game\ui\ui_clickable.h" />
+    <ClInclude Include="src\game\unit.h" />
+    <ClInclude Include="src\game\units\unit_billboard.h" />
+    <ClInclude Include="src\game\units\unit_button.h" />
+    <ClInclude Include="src\game\units\unit_friend_list.h" />
+    <ClInclude Include="src\game\units\unit_map.h" />
+    <ClInclude Include="src\game\units\unit_map_bld_decoration.h" />
+    <ClInclude Include="src\game\units\unit_map_bld_workshop.h" />
+    <ClInclude Include="src\game\units\unit_map_building.h" />
+    <ClInclude Include="src\game\units\unit_map_grid.h" />
+    <ClInclude Include="src\game\units\unit_player_stats.h" />
+    <ClInclude Include="src\game\units\unit_progress_bar.h" />
+    <ClInclude Include="src\game\units\unit_shop.h" />
+    <ClInclude Include="src\game\units\unit_text.h" />
+    <ClInclude Include="src\math\color.h" />
+    <ClInclude Include="src\math\common.h" />
+    <ClInclude Include="src\math\point.h" />
+    <ClInclude Include="src\math\rect.h" />
+    <ClInclude Include="src\math\vec.h" />
+    <ClInclude Include="src\paths.h" />
+    <ClInclude Include="src\pch.h" />
+    <ClInclude Include="src\render\buffer.h" />
+    <ClInclude Include="src\render\geometry.h" />
+    <ClInclude Include="src\render\primitive.h" />
+    <ClInclude Include="src\render\prim\points.h" />
+    <ClInclude Include="src\render\prim\trimesh.h" />
+    <ClInclude Include="src\render\render.h" />
+    <ClInclude Include="src\render\resource\material.h" />
+    <ClInclude Include="src\render\resource\shader.h" />
+    <ClInclude Include="src\render\resource\texture.h" />
+    <ClInclude Include="src\render\resource\tex\tex_img.h" />
+    <ClInclude Include="src\render\vertex.h" />
+    <ClInclude Include="src\util\resource_manager.h" />
+    <ClInclude Include="src\util\utils.h" />
+    <ClInclude Include="src\win\window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\billboard\.frag" />
+    <None Include="assets\shaders\billboard\.geom" />
+    <None Include="assets\shaders\billboard\.vert" />
+    <None Include="assets\shaders\building\.frag" />
+    <None Include="assets\shaders\building\.geom" />
+    <None Include="assets\shaders\building\.vert" />
+    <None Include="assets\shaders\button\.frag" />
+    <None Include="assets\shaders\button\.geom" />
+    <None Include="assets\shaders\button\.vert" />
+    <None Include="assets\shaders\grid\.frag" />
+    <None Include="assets\shaders\grid\.geom" />
+    <None Include="assets\shaders\grid\.vert" />
+    <None Include="assets\shaders\progress_bar\.frag" />
+    <None Include="assets\shaders\progress_bar\.geom" />
+    <None Include="assets\shaders\progress_bar\.vert" />
+    <None Include="assets\shaders\text\.frag" />
+    <None Include="assets\shaders\text\.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="assets\xml\current_map.xml" />
+    <Xml Include="assets\xml\decorations\bridge.xml" />
+    <Xml Include="assets\xml\decorations\hangar.xml" />
+    <Xml Include="assets\xml\example_map.xml" />
+    <Xml Include="assets\xml\workshops\drugstore.xml" />
+    <Xml Include="assets\xml\workshops\government.xml" />
+    <Xml Include="assets\xml\workshops\museum.xml" />
+    <Xml Include="assets\xml\workshops\property.xml" />
+    <Xml Include="assets\xml\workshops\temple.xml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{973bf0f4-1525-4ca6-9aac-05ac562719c2}</ProjectGuid>
+    <RootNamespace>villageidledemo</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)src\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ProjectDir)lib\$(Platform)\jpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)src\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ProjectDir)lib\$(Platform)\jpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)src\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ProjectDir)lib\$(Platform)\jpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)src\;$(ProjectDir)src\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)lib\$(Platform)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(ProjectDir)lib\$(Platform)\jpeg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

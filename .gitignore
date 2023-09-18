@@ -1,0 +1,6 @@
+.vs/
+*.user
+bin/
+*.log
+Demo/
+*.db

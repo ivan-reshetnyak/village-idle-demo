@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Workshop>
+    <Name>Museum</Name>
+    <Background>assets/img/workshop/museum.png</Background>
+    <Description>Sample museum description.</Description>
+    <Cost>2500</Cost>
+    <MinLevel>20</MinLevel>
+    <Income>750</Income>
+    <XP>15</XP>
+</Workshop>

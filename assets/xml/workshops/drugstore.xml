@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Workshop>
+    <Name>Drugstore</Name>
+    <Background>assets/img/workshop/drugstore.png</Background>
+    <Description>Sample drugstore description.</Description>
+    <Cost>100</Cost>
+    <MinLevel>5</MinLevel>
+    <Income>20.0</Income>
+    <XP>15</XP>
+</Workshop>

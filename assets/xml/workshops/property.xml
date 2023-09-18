@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Workshop>
+    <Name>Property</Name>
+    <Background>assets/img/workshop/property.png</Background>
+    <Description>Sample property description.</Description>
+    <Cost>10</Cost>
+    <MinLevel>1</MinLevel>
+    <Income>2.5</Income>
+    <XP>15</XP>
+</Workshop>

@@ -1,0 +1,60 @@
+<Map>
+	<Background>assets/img/Map1.jpg</Background>
+	<ZoomIn>assets/img/zoomin.png</ZoomIn>
+	<ZoomOut>assets/img/zoomout.png</ZoomOut>
+	<Descriptions>
+		<value type="decoration">assets/xml/decorations/bridge.xml</value>
+		<value type="workshop">assets/xml/workshops/property.xml</value>
+		<value type="workshop">assets/xml/workshops/drugstore.xml</value>
+		<value type="decoration">assets/xml/decorations/hangar.xml</value>
+		<value type="workshop">assets/xml/workshops/government.xml</value>
+		<value type="workshop">assets/xml/workshops/museum.xml</value>
+		<value type="workshop">assets/xml/workshops/temple.xml</value>
+	</Descriptions>
+	<Grids>
+		<value left="0.792000" right="0.911000" top="0.491400" bottom="0.624500" cellsX="1" cellsY="1"/>
+		<value left="0.247000" right="0.634500" top="0.308400" bottom="0.523500" cellsX="4" cellsY="2"/>
+		<value left="0.234500" right="0.610000" top="0.544900" bottom="0.773500" cellsX="4" cellsY="2"/>
+		<value left="0.638000" right="0.789500" top="0.480800" bottom="0.696600" cellsX="1" cellsY="1"/>
+	</Grids>
+	<Buildings>
+		<value grid="0" posX="0" posY="0">Museum</value>
+		<value grid="1" posX="0" posY="0">Bridge</value>
+		<value grid="1" posX="1" posY="0">Bridge</value>
+		<value grid="1" posX="2" posY="0">Museum</value>
+		<value grid="1" posX="3" posY="0">Museum</value>
+		<value grid="1" posX="0" posY="1">Bridge</value>
+		<value grid="1" posX="1" posY="1">Museum</value>
+		<value grid="1" posX="2" posY="1">Museum</value>
+		<value grid="1" posX="3" posY="1">Museum</value>
+		<value grid="2" posX="0" posY="0">Museum</value>
+		<value grid="2" posX="1" posY="0">Museum</value>
+		<value grid="2" posX="2" posY="0">Museum</value>
+		<value grid="2" posX="3" posY="0">Museum</value>
+		<value grid="2" posX="0" posY="1">Museum</value>
+		<value grid="2" posX="1" posY="1">Museum</value>
+		<value grid="2" posX="2" posY="1">Museum</value>
+		<value grid="2" posX="3" posY="1">Property</value>
+		<value grid="3" posX="0" posY="0">Drugstore</value>
+	</Buildings>
+	<Player>
+		<Name>Mango</Name>
+		<Gold>87087.593750</Gold>
+		<Level>18</Level>
+		<Experience>143.000000</Experience>
+		<Happiness>90.000000</Happiness>
+	</Player>
+	<Friends>
+		<value name="Cathe" level="25">assets/img/coin.png</value>
+		<value name="Pip" level="23">assets/img/profile.png</value>
+		<value name="Derpy" level="15">assets/img/Smiley.png</value>
+		<value name="Elric" level="99">assets/img/profile.png</value>
+		<value name="Amer" level="99">assets/img/profile.png</value>
+		<value name="Vash" level="12">assets/img/profile.png</value>
+		<value name="Iris" level="23">assets/img/profile.png</value>
+		<value name="tonyk" level="79">assets/img/profile.png</value>
+		<value name="Pancarte" level="80">assets/img/profile.png</value>
+		<value name="Mels" level="16">assets/img/profile.png</value>
+	</Friends>
+</Map>
+

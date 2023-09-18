@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Decoration>
+    <Name>Hangar</Name>
+    <Background>assets/img/decoration/hangar.png</Background>
+    <Description>Sample hangar description.</Description>
+    <Cost>100</Cost>
+    <MinLevel>1</MinLevel>
+    <Happiness>15</Happiness>
+    <XP>15</XP>
+</Decoration>

@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{ad81b92a-f289-4c56-86f9-902c2b7bca99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{873ce1c5-3fc4-47b9-b9ef-9c8299eb9f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render">
+      <UniqueIdentifier>{574be2bd-885f-42e6-8483-f56d5de1ce8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{7dc27e12-85a7-477c-af33-3fce5bede0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\win">
+      <UniqueIdentifier>{da7c45b8-0742-4fb4-a374-b8b698cf1724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\prim">
+      <UniqueIdentifier>{502f8a35-2167-409b-a063-b8b254156862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\resource">
+      <UniqueIdentifier>{bc022945-3fff-4dea-9655-b08df69c18f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\render\resource\tex">
+      <UniqueIdentifier>{1352179e-e6f9-4b0c-940e-560dd5dbc088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\ui">
+      <UniqueIdentifier>{3face353-5af0-4d6f-b5ab-b3129b164bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\units">
+      <UniqueIdentifier>{2009ed1a-7d03-4ae7-b6d5-fec39abaf8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{bd4b11d0-ed6e-4140-ad73-06f1feae4fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml">
+      <UniqueIdentifier>{c2e132de-f341-4a54-bf24-515b7f9c75fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img">
+      <UniqueIdentifier>{4066d2d2-ded8-4014-afc9-14e1a9f59587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\decoration">
+      <UniqueIdentifier>{a7db4bd3-e400-4c5e-8c2a-dd40d75b8920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\spleen">
+      <UniqueIdentifier>{0735907b-5ab6-4584-993d-2262df01dc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\img\workshop">
+      <UniqueIdentifier>{7a254aec-eaab-4ccc-8319-bdc145b7ee49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\text">
+      <UniqueIdentifier>{26bc4979-4b46-4a34-a434-51104f2349ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\billboard">
+      <UniqueIdentifier>{0139137f-8e0e-43ff-ad9e-20e2f70cecbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\button">
+      <UniqueIdentifier>{d0bf35ee-4f97-418f-b36b-2ed937d48acc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\grid">
+      <UniqueIdentifier>{e8f80592-980a-4d2f-967a-e4e084cceb8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\progress_bar">
+      <UniqueIdentifier>{c401e353-2d81-4a17-aed0-7c746951f629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders\building">
+      <UniqueIdentifier>{598c3a28-d2a0-4a0d-94e3-417a14e82896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml\decorations">
+      <UniqueIdentifier>{b823b137-01e1-4dc1-bab6-714991270dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\xml\workshops">
+      <UniqueIdentifier>{ad2e20f3-53a0-421b-9c2b-2227420ea1b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pch.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\buffer.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\geometry.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\primitive.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\render.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\vertex.cpp">
+      <Filter>Source Files\render</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\prim\points.cpp">
+      <Filter>Source Files\render\prim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\prim\trimesh.cpp">
+      <Filter>Source Files\render\prim</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\resource\material.cpp">
+      <Filter>Source Files\render\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\resource\shader.cpp">
+      <Filter>Source Files\render\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\resource\texture.cpp">
+      <Filter>Source Files\render\resource</Filter>
+    </ClCompile>
+    <ClCompile Include="src\render\resource\tex\tex_img.cpp">
+      <Filter>Source Files\render\resource\tex</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\utils.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\window.cpp">
+      <Filter>Source Files\win</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\common.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\camera.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\controls.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\friends.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\player_info.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\timer.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\unit.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_billboard.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_button.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_friend_list.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_map.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_map_bld_decoration.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_map_bld_workshop.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_map_building.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_map_elements.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_map_grid.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_player_stats.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_progress_bar.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_shop.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\units\unit_text.cpp">
+      <Filter>Source Files\game\units</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\ui\ui_clickable.cpp">
+      <Filter>Source Files\game\ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\buffer.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\geometry.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\primitive.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\render.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\vertex.h">
+      <Filter>Source Files\render</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\prim\points.h">
+      <Filter>Source Files\render\prim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\prim\trimesh.h">
+      <Filter>Source Files\render\prim</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\resource\material.h">
+      <Filter>Source Files\render\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\resource\shader.h">
+      <Filter>Source Files\render\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\resource\texture.h">
+      <Filter>Source Files\render\resource</Filter>
+    </ClInclude>
+    <ClInclude Include="src\render\resource\tex\tex_img.h">
+      <Filter>Source Files\render\resource\tex</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\resource_manager.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\util\utils.h">
+      <Filter>Source Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\window.h">
+      <Filter>Source Files\win</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\color.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\common.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\point.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\rect.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vec.h">
+      <Filter>Source Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\camera.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\controls.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\friends.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\game.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\player_info.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\timer.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\unit.h">
+      <Filter>Source Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_billboard.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_button.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_friend_list.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_map.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_map_bld_decoration.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_map_bld_workshop.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_map_building.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_map_grid.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_player_stats.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_progress_bar.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_shop.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\units\unit_text.h">
+      <Filter>Source Files\game\units</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\ui\ui_clickable.h">
+      <Filter>Source Files\game\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\paths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\text\.frag">
+      <Filter>Resource Files\shaders\text</Filter>
+    </None>
+    <None Include="assets\shaders\text\.vert">
+      <Filter>Resource Files\shaders\text</Filter>
+    </None>
+    <None Include="assets\shaders\grid\.frag">
+      <Filter>Resource Files\shaders\grid</Filter>
+    </None>
+    <None Include="assets\shaders\grid\.geom">
+      <Filter>Resource Files\shaders\grid</Filter>
+    </None>
+    <None Include="assets\shaders\grid\.vert">
+      <Filter>Resource Files\shaders\grid</Filter>
+    </None>
+    <None Include="assets\shaders\progress_bar\.frag">
+      <Filter>Resource Files\shaders\progress_bar</Filter>
+    </None>
+    <None Include="assets\shaders\progress_bar\.geom">
+      <Filter>Resource Files\shaders\progress_bar</Filter>
+    </None>
+    <None Include="assets\shaders\progress_bar\.vert">
+      <Filter>Resource Files\shaders\progress_bar</Filter>
+    </None>
+    <None Include="assets\shaders\button\.frag">
+      <Filter>Resource Files\shaders\button</Filter>
+    </None>
+    <None Include="assets\shaders\button\.geom">
+      <Filter>Resource Files\shaders\button</Filter>
+    </None>
+    <None Include="assets\shaders\button\.vert">
+      <Filter>Resource Files\shaders\button</Filter>
+    </None>
+    <None Include="assets\shaders\billboard\.frag">
+      <Filter>Resource Files\shaders\billboard</Filter>
+    </None>
+    <None Include="assets\shaders\billboard\.geom">
+      <Filter>Resource Files\shaders\billboard</Filter>
+    </None>
+    <None Include="assets\shaders\billboard\.vert">
+      <Filter>Resource Files\shaders\billboard</Filter>
+    </None>
+    <None Include="assets\shaders\building\.frag">
+      <Filter>Resource Files\shaders\building</Filter>
+    </None>
+    <None Include="assets\shaders\building\.geom">
+      <Filter>Resource Files\shaders\building</Filter>
+    </None>
+    <None Include="assets\shaders\building\.vert">
+      <Filter>Resource Files\shaders\building</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="assets\xml\current_map.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="assets\xml\example_map.xml">
+      <Filter>Resource Files\xml</Filter>
+    </Xml>
+    <Xml Include="assets\xml\workshops\drugstore.xml">
+      <Filter>Resource Files\xml\workshops</Filter>
+    </Xml>
+    <Xml Include="assets\xml\workshops\government.xml">
+      <Filter>Resource Files\xml\workshops</Filter>
+    </Xml>
+    <Xml Include="assets\xml\workshops\museum.xml">
+      <Filter>Resource Files\xml\workshops</Filter>
+    </Xml>
+    <Xml Include="assets\xml\workshops\property.xml">
+      <Filter>Resource Files\xml\workshops</Filter>
+    </Xml>
+    <Xml Include="assets\xml\workshops\temple.xml">
+      <Filter>Resource Files\xml\workshops</Filter>
+    </Xml>
+    <Xml Include="assets\xml\decorations\bridge.xml">
+      <Filter>Resource Files\xml\decorations</Filter>
+    </Xml>
+    <Xml Include="assets\xml\decorations\hangar.xml">
+      <Filter>Resource Files\xml\decorations</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
