@@ -1,5 +1,7 @@
 # Village Idle Demo
 
+![image](https://github.com/ivan-reshetnyak/village-idle-demo/assets/13238943/3b569960-2c3b-4923-a0f8-a03ccf1ea11f)
+
 ## What is it
 This is a test project done for [REDACTED], sanitized to remove all mentions of [REDACTED].  
 It is essentially a barebones demo for an idle game - a game map can be filled with two types of buildings - generating either Happiness or Gold resources, and generating Experience on purchase. Map and game world are configurable and persistent (saved in .xml every session).
